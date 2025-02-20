@@ -1,0 +1,491 @@
+-----------Now executing Ks for llm: gpt-3.5-turbo-----------
+llm: gpt-3.5-turbo and k = 0
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt-3.5-turbo E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_prediction_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_evaluation_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_evaluation_0.jsonl
+mean: 3.9 std: 2.8583211855912904
+******Finish! When k = 0
+
+******llm: gpt-3.5-turbo and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt-3.5-turbo E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_prediction_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_evaluation_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo_evaluation_1.jsonl
+mean: 6.366666666666666 std: 2.992026440762552
+******Finish! When k = 1
+
+******-----------Now executing Ks for llm: gpt-3.5-turbo-16k-----------
+llm: gpt-3.5-turbo-16k and k = 0
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt-3.5-turbo-16k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_0.jsonl
+mean: 3.82 std: 2.845042471856381
+******Finish! When k = 0
+
+******llm: gpt-3.5-turbo-16k and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt-3.5-turbo-16k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_1.jsonl
+mean: 6.2 std: 3.0572318634128273
+******Finish! When k = 1
+
+******llm: gpt-3.5-turbo-16k and k = 2
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 2 --llm gpt-3.5-turbo-16k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_2.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_2.jsonl
+mean: 7.086666666666667 std: 2.6049610788305886
+******Finish! When k = 2
+
+******llm: gpt-3.5-turbo-16k and k = 3
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 3 --llm gpt-3.5-turbo-16k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_3.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_3.jsonl
+mean: 6.773333333333333 std: 2.8522427822485397
+******Finish! When k = 3
+
+******llm: gpt-3.5-turbo-16k and k = 4
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 4 --llm gpt-3.5-turbo-16k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_prediction_4.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-16k_evaluation_4.jsonl
+mean: 6.98 std: 2.672002994010299
+******Finish! When k = 4
+
+******-----------Now executing Ks for llm: gpt4-32k-----------
+llm: gpt4-32k and k = 0
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_0.jsonl
+mean: 2.92 std: 2.7556487439439734
+******Finish! When k = 0
+
+******llm: gpt4-32k and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_1.jsonl
+mean: 5.926666666666667 std: 3.2271693823259766
+******Finish! When k = 1
+
+******llm: gpt4-32k and k = 2
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 2 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_2.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_2.jsonl
+mean: 6.8 std: 2.9687258770949763
+******Finish! When k = 2
+
+******llm: gpt4-32k and k = 3
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 3 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_3.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_3.jsonl
+mean: 6.94 std: 2.9239927040492657
+******Finish! When k = 3
+
+******llm: gpt4-32k and k = 4
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 4 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_prediction_4.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-32k_evaluation_4.jsonl
+mean: 7.0 std: 2.930301463444788
+******Finish! When k = 4
+
+******-----------Now executing Ks for llm: gpt4-1106-preview-----------
+llm: gpt4-1106-preview and k = 0
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_0.jsonl
+mean: 4.6866666666666665 std: 3.090062926363942
+******Finish! When k = 0
+
+******llm: gpt4-1106-preview and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_1.jsonl
+mean: 6.96 std: 2.804472618277217
+******Finish! When k = 1
+
+******llm: gpt4-1106-preview and k = 2
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 2 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_2.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_2.jsonl
+mean: 7.42 std: 2.3643744768260944
+******Finish! When k = 2
+
+******llm: gpt4-1106-preview and k = 3
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 3 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_3.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_3.jsonl
+mean: 7.26 std: 2.590829982843336
+******Finish! When k = 3
+
+******llm: gpt4-1106-preview and k = 4
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 4 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_prediction_4.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-1106-preview_evaluation_4.jsonl
+mean: 7.6866666666666665 std: 2.338480038163441
+******Finish! When k = 4
+
+******-----------Now executing Ks for llm: gpt4-0125-preview-----------
+llm: gpt4-0125-preview and k = 0
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_0.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_0.jsonl
+mean: 4.933333333333334 std: 3.0630413353760377
+******Finish! When k = 0
+
+******llm: gpt4-0125-preview and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_1.jsonl
+mean: 7.026666666666666 std: 2.814123111892742
+******Finish! When k = 1
+
+******llm: gpt4-0125-preview and k = 2
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 2 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_2.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_2.jsonl
+mean: 7.253333333333333 std: 2.6712959817703137
+******Finish! When k = 2
+
+******llm: gpt4-0125-preview and k = 3
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 3 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_3.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_3.jsonl
+mean: 7.58 std: 2.4393168442551016
+******Finish! When k = 3
+
+******llm: gpt4-0125-preview and k = 4
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 4 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_prediction_3.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt4-0125-preview_evaluation_3.jsonl
+mean: 7.46 std: 2.5076682396202252
+******Finish! When k = 4
+
+******
+
+
+
+ALL Ks are finished!!! Now is the time for rerank.
+
+-----------Now executing reranker for llm: gpt-3.5-turbo-----------
+llm: gpt-3.5-turbo and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo_prediction_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo_evaluation_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo_evaluation_rerank_1.jsonl
+mean: 7.133333333333334 std: 2.6373387259803307
+******Finish! When k = 1
+
+******-----------Now executing reranker for llm: gpt4-32k-----------
+llm: gpt4-32k and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_1.jsonl
+mean: 7.073333333333333 std: 2.7787207288406814
+******Finish! When k = 1
+
+******llm: gpt4-32k and k = 2
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 2 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_2.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_2.jsonl
+mean: 7.38 std: 2.6373471519691907
+******Finish! When k = 2
+
+******llm: gpt4-32k and k = 3
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 3 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_3.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_3.jsonl
+mean: 7.06 std: 2.788619730260833
+******Finish! When k = 3
+
+******llm: gpt4-32k and k = 4
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 4 --llm gpt4-32k E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_prediction_rerank_4.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-32k_evaluation_rerank_4.jsonl
+mean: 7.3933333333333335 std: 2.5635825626563222
+******Finish! When k = 4
+
+******-----------Now executing reranker for llm: gpt4-1106-preview-----------
+llm: gpt4-1106-preview and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_1.jsonl
+mean: 7.46 std: 2.5758623151610154
+******Finish! When k = 1
+
+******llm: gpt4-1106-preview and k = 2
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 2 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_2.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_2.jsonl
+mean: 7.58 std: 2.4365823058811973
+******Finish! When k = 2
+
+******llm: gpt4-1106-preview and k = 3
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 3 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_3.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_3.jsonl
+mean: 7.726666666666667 std: 2.349174796012894
+******Finish! When k = 3
+
+******llm: gpt4-1106-preview and k = 4
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 4 --llm gpt4-1106-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_prediction_rerank_4.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_4.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-1106-preview_evaluation_rerank_4.jsonl
+mean: 7.6866666666666665 std: 2.4142263541119937
+******Finish! When k = 4
+
+******-----------Now executing reranker for llm: gpt4-0125-preview-----------
+llm: gpt4-0125-preview and k = 1
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_prediction_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_evaluation_rerank_1.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_evaluation_rerank_1.jsonl
+mean: 7.76 std: 2.211123394717415
+******Finish! When k = 1
+
+******llm: gpt4-0125-preview and k = 2
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 2 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_prediction_rerank_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_prediction_rerank_2.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_evaluation_rerank_2.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_evaluation_rerank_2.jsonl
+mean: 7.66 std: 2.4326391703936148
+******Finish! When k = 2
+
+******llm: gpt4-0125-preview and k = 3
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 3 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_prediction_rerank_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_prediction_rerank_3.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_evaluation_rerank_3.jsonl
+Finish!
+
+Now execute this command: python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_evaluation_rerank_3.jsonl
+mean: 7.866666666666666 std: 2.1406125810669763
+******Finish! When k = 3
+
+******llm: gpt4-0125-preview and k = 4
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 4 --llm gpt4-0125-preview E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt4-0125-preview_prediction_rerank_4.jsonl
+...
+Finish!mean: 8.1 std: 2.0256686138984663
+------------------ done with original llms ----------------------------------------------------------
+
+
+-----------Now executing k and reranker for llm: gpt-3.5-turbo-ft-jiewen_32_32-----------
+k = 0
+Now execute this command: python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_32_32_prediction_0.jsonl
+Score: python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_32_32_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_32_32_evaluation_0.jsonl
+mean and var: mean: 5.926666666666667 std: 2.666074934347412
+
+k = 1
+python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_32_32_prediction_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_32_32_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_32_32_evaluation_1.jsonl
+mean: 6.326666666666667 std: 2.765252650703408
+
+rerank k = 1
+python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-32_32_prediction_rerank_1.jsonla-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-32_32_prediction_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-32_32_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-32_32_evaluation_rerank_1.jsonl
+mean: 6.953333333333333 std: 2.364562444841657
+
+-----------Now executing k and reranker for llm: gpt-3.5-turbo-ft-jiewen_16_32-----------
+k = 0
+python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_prediction_0.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_evaluation_0.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_evaluation_0.jsonl
+mean: 5.64 std: 2.774358784776523
+
+k = 1
+python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_prediction_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_evaluation_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_16_32_evaluation_1.jsonl
+mean: 6.613333333333333 std: 2.5684928568239305
+
+rerank k = 1
+python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-16_32_prediction_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-16_32_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-16_32_evaluation_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-16_32_evaluation_rerank_1.jsonl
+mean: 7.073333333333333 std: 2.46602694407196
+
+-----------Now executing k and reranker for llm: gpt-3.5-turbo-ft-jiewen_8_32-----------
+k = 0
+python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_prediction_0.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_evaluation_0.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_evaluation_0.jsonl
+mean: 5.273333333333333 std: 2.8399452263888625
+
+k = 1
+python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_prediction_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_evaluation_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_8_32_evaluation_1.jsonl
+mean: 6.7 std: 2.465089585931243
+
+rerank k = 1
+python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-8_32_prediction_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-8_32_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-8_32_evaluation_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-8_32_evaluation_rerank_1.jsonl
+mean: 6.966666666666667 std: 2.313487026594751
+
+-----------Now executing k and reranker for llm: gpt-3.5-turbo-ft-jiewen_4_32-----------
+k = 0
+python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_prediction_0.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_prediction_0.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_evaluation_0.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_evaluation_0.jsonl
+mean: 5.5 std: 2.808914381037628
+
+k = 1
+python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_prediction_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_prediction_1.jsonl E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_evaluation_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\k\result_test-gpt-3.5-turbo-ft-jiewen_4_32_evaluation_1.jsonl
+mean: 6.466666666666667 std: 2.712112747574399
+
+rerank = 1
+python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-4_32_prediction_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-4_32_prediction_rerank_1.jsonl E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-4_32_evaluation_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\eval\reranker\result_test-gpt-3.5-turbo-ft-jiewen-4_32_evaluation_rerank_1.jsonl
+mean: 7.2 std: 2.212088003071608
+python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\test.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\test.jsonl E:\python\sionna-rag\code\test_result.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\test_result.jsonl
+mean: 6.84 std: 2.52475741408952
+
+-------- 重跑gpt-3.5ft-epoch 24- batch 32 rerank 1 -----------------
+python E:\python\sionna-rag\code\answer.py batch --rerank --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_prediction_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\test.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_prediction_rerank_1.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_evaluation_rerank_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_evaluation_rerank_1.jsonl
+mean: 6.546666666666667 std: 2.7315115880324496
+没问题
+
+k = 1
+python E:\python\sionna-rag\code\answer.py batch --top-k 1 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_prediction_1.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_prediction_1.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_evaluation_1.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_evaluation_1.jsonl
+mean: 6.806666666666667 std: 2.3400759721760225
+
+k = 0
+python E:\python\sionna-rag\code\answer.py batch --top-k 0 --llm gpt-3.5-turbo-ft-jiewen E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_prediction_0.jsonl
+python E:\python\sionna-rag\code\eval\score.py E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\instruction.jsonl E:\python\lnm\automation_for_markdown\finetune_prepare\5_16\test_5_16.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_prediction_0.jsonl E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_evaluation_0.jsonl
+python E:\python\sionna-rag\code\eval\analyze.py point E:\python\sionna-rag\code\gpt-3.5-turbo-ft-jiewen-24_32_evaluation_0.jsonl
+mean: 5.633333333333334 std: 2.859875677173553
