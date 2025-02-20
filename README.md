@@ -22,11 +22,3 @@ cohere_key=<YOUR-COHERE-KEY>
 reranker=rerank-english-v3.0
 ```
 
-### Run example code
-Now you can start by running the following command. It provides an demo interface for you to typing questions.
-```bash
-bash run.sh
-```
-![An example output](misc/example.jpg)
-
-You may look into the bash script and see how it works. Batch mode is also supported for experiment acceleration.
