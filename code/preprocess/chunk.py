@@ -205,35 +205,32 @@ class MdTree:
     #         if root is None: root = node
     #     self.root = root
     def __init__(self, lines, max_level=6):
-        # 创建一个虚拟的根节点
         root = MdTreeNode("root", [], None)
         seen = {'': root}  # Map from total_title to node
         for chapter in split_by_heading(lines, max_level):
             original_heading_title = chapter.heading.heading_title
             heading_title = original_heading_title
             total_title = '/'.join([*chapter.parent_headings, heading_title])
-            # 设置父节点
+
             if chapter.parent_headings:
                 key = '/'.join(chapter.parent_headings)
-                parent = seen.get(key, root)  # 如果找不到父节点，设置为根节点
+                parent = seen.get(key, root)  
             else:
-                parent = root  # 顶级节点的父节点设置为根节点
-            # 检查是否存在相同的 total_title
+                parent = root  
+
             if total_title in seen:
                 existing_node = seen[total_title]
-                # 比较内容，忽略空行
+
                 existing_content = ''.join([line.strip() for line in existing_node.text if line.strip()])
                 new_content = ''.join([line.strip() for line in chapter.text if line.strip()])
                 if existing_content == new_content:
-                    # 内容相同，忽略第二个章节
                     continue
                 else:
-                    # 内容不同，修改第二个章节的标题，使其与第一个不同
                     modifiers = [
-                        lambda s: s.replace(' ', ''),  # 删除空格
-                        lambda s: s.upper(),  # 全部大写
-                        lambda s: s.lower(),  # 全部小写
-                        lambda s: s.capitalize(),  # 首字母大写
+                        lambda s: s.replace(' ', ''),  
+                        lambda s: s.upper(),  
+                        lambda s: s.lower(),  
+                        lambda s: s.capitalize(),  
                     ]
                     for modify in modifiers:
                         modified_heading_title = modify(original_heading_title)
@@ -243,7 +240,6 @@ class MdTree:
                             chapter.heading.heading_title = heading_title
                             break
                     else:
-                        # 如果以上修改都不能使标题唯一，添加数字后缀
                         count = 1
                         while total_title in seen:
                             heading_title = f"{original_heading_title}_{count}"
