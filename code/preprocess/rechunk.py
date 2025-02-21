@@ -42,21 +42,16 @@ def process_rocket_fuel(content):
             continue
 
         try:
-            # 提取第一个城市名（取逗号之前的部分）
             loc1_full = parts[0]
             city1 = loc1_full.split(',')[0] if ',' in loc1_full else loc1_full
-
-            # 提取第二个城市名
             loc2_full = parts[1]
             city2 = loc2_full.split(',')[0] if ',' in loc2_full else loc2_full
 
-            # 只有当第一个城市是新城市时才保留这行
             if city1 not in seen_cities:
                 seen_cities.add(city1)
                 kept_lines.append(line)
                 continue
 
-            # 只在第二个城市是新城市时才保留
             if city2 not in seen_cities:
                 seen_cities.add(city2)
                 kept_lines.append(line)
@@ -101,7 +96,7 @@ def truncate_comments_by_token_size(comments, filename, orig_line_num):
         return comments
 
     reduced_content = create_reduced_content(filename, orig_line_num, comments)
-    kept_comments = comments[:len(reduced_content.split('\n')) - 4]  # 减去头尾的格式行
+    kept_comments = comments[:len(reduced_content.split('\n')) - 4]  
 
     if len(kept_comments) < len(comments):
         with open(output_truncated_path, 'a', encoding='utf-8') as f:
@@ -117,7 +112,6 @@ def truncate_comments_by_token_size(comments, filename, orig_line_num):
     return kept_comments
 
 def extract_comments_for_display(code_block):
-    """提取用于展示的注释，包含完整格式"""
     if code_block is None:
         return []
 
@@ -133,15 +127,12 @@ def extract_comments_for_display(code_block):
         original_line = lines[i]
         line = original_line.strip()
 
-        # 跳过 #include 行
         if line.startswith('#include'):
             i += 1
             continue
 
-        # 处理 # 或 ## 注释（包括行内注释）
         if '#' in line and not line.startswith('#include'):
             comment_start = line.index('#')
-            # 确保 # 不是字符串中的字符
             before_hash = line[:comment_start]
             if not (before_hash.count('"') % 2 == 1 or before_hash.count("'") % 2 == 1):
                 if not should_exclude_comment(line):
@@ -149,11 +140,9 @@ def extract_comments_for_display(code_block):
             i += 1
             continue
 
-        # 处理文档字符串
         if (line.startswith('"""') or line.startswith("'''")) and not in_docstring:
             in_docstring = True
             current_docstring = [original_line]
-            # 检查是否是单行文档字符串
             if line.count('"""') == 2 or line.count("'''") == 2:
                 if not should_exclude_comment(line):
                     comments.append(original_line)
@@ -164,8 +153,7 @@ def extract_comments_for_display(code_block):
                 in_docstring = False
             i += 1
             continue
-
-        # 处理多行文档字符串的内容
+            
         if in_docstring:
             current_docstring.append(original_line)
             if line.endswith('"""') or line.endswith("'''"):
@@ -177,14 +165,12 @@ def extract_comments_for_display(code_block):
             i += 1
             continue
 
-        # 处理行内//注释
         if '//' in line and not line.startswith('#include'):
             if not should_exclude_comment(line):
                 comments.append(original_line)
             i += 1
             continue
 
-        # 处理多行注释开始
         if '/*' in line and not in_multiline_comment:
             in_multiline_comment = True
             current_multiline_comment = [original_line]
@@ -196,7 +182,6 @@ def extract_comments_for_display(code_block):
             i += 1
             continue
 
-        # 处理多行注释内容
         if in_multiline_comment:
             current_multiline_comment.append(original_line)
             if '*/' in line:
@@ -214,7 +199,6 @@ def extract_comments_for_display(code_block):
 
 
 def count_comment_lines(code_block):
-    """只计算实际注释内容的行数，不包括结束标记的行"""
     if code_block is None:
         return 0
 
@@ -227,15 +211,12 @@ def count_comment_lines(code_block):
     while i < len(lines):
         line = lines[i].strip()
 
-        # 跳过空行和#include
         if not line or line.startswith('#include'):
             i += 1
             continue
 
-        # 处理 # 或 ## 注释（包括行内注释）
         if '#' in line and not line.startswith('#include'):
             comment_start = line.index('#')
-            # 确保 # 不是字符串中的字符
             before_hash = line[:comment_start]
             if not (before_hash.count('"') % 2 == 1 or before_hash.count("'") % 2 == 1):
                 if not should_exclude_comment(line):
@@ -243,12 +224,10 @@ def count_comment_lines(code_block):
             i += 1
             continue
 
-        # 处理文档字符串
         if (line.startswith('"""') or line.startswith("'''")) and not in_docstring:
             in_docstring = True
             if not should_exclude_comment(line):
                 count += 1
-            # 检查是否是单行文档字符串
             if line.count('"""') == 2 or line.count("'''") == 2:
                 in_docstring = False
             elif line.endswith('"""') or line.endswith("'''"):
@@ -256,7 +235,6 @@ def count_comment_lines(code_block):
             i += 1
             continue
 
-        # 处理多行文档字符串的内容
         if in_docstring:
             if not should_exclude_comment(line):
                 count += 1
@@ -265,28 +243,25 @@ def count_comment_lines(code_block):
             i += 1
             continue
 
-        # 计算行内//注释
         if '//' in line and not line.startswith('#include'):
             if not should_exclude_comment(line):
                 count += 1
             i += 1
             continue
 
-        # 处理多行注释开始
         if '/*' in line and not in_multiline_comment:
             in_multiline_comment = True
             if not should_exclude_comment(line):
                 count += 1
-            if '*/' in line:  # 单行完整注释
+            if '*/' in line: 
                 in_multiline_comment = False
             i += 1
             continue
 
-        # 处理多行注释内容
         if in_multiline_comment:
             if '*/' in line:
                 in_multiline_comment = False
-                if line.strip() == '*/':  # 如果这行只有*/，不计入计数
+                if line.strip() == '*/':  
                     i += 1
                     continue
             if not should_exclude_comment(line):
@@ -300,7 +275,6 @@ def count_comment_lines(code_block):
 
 
 def extract_filename(content):
-    """从内容中提取文件名"""
     first_line = content.split('\n')[0]
     if first_line.startswith('# /'):
         return first_line[2:].strip()
@@ -384,7 +358,6 @@ def process_jsonl():
             print(f"Error decoding JSON on line {orig_line_num}: {str(e)}")
             continue
 
-    # 写入token统计结果
     with open(output_token_count_path, 'w', encoding='utf-8') as f:
         f.write("The following is information about files exceeding 8000 tokens:\n\n")
         for item in over_limit_lines:
@@ -395,7 +368,6 @@ def process_jsonl():
                 f.write(f"Filename: {item['filename']}, Original Line Number: {item['line_number']} (Not a code block or other case)\n")
         f.write(f"\nTotal number of lines exceeding 8000 tokens: {len(over_limit_lines)}\n")
 
-    # 写入注释行数小于10的文件信息
     with open(output_less_than_10_path, 'w', encoding='utf-8') as f:
         f.write("The following files have fewer than 10 comments:\n\n")
         for item in less_than_10_comments:
