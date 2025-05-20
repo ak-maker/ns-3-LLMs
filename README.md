@@ -1,5 +1,11 @@
 <u><i>Still under active construction</i></u>
 
+## Live demo For Scenario 2 using GPT-4o
+
+🎥 Demo Video B1 & B2: [Watch here](https://drive.google.com/file/d/1iRKEvI3lmc3agxMzIOVPLHwlwQT6lr0b/view?usp=drive_link)  
+🎥 Demo Video B3: [Watch here](https://drive.google.com/file/d/12vN8BYCpU7i1zsazHcqFxBB13iPz0Y1d/view?usp=drive_link)
+
+
 ## **Complete implementation scripts for B. Scenario 2: Packet-level Simulation with ns-3**
 
 ### B1. LLM-Driven Automation
