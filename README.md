@@ -1,6 +1,6 @@
 
 
-## Live demo For automatic simulation using GPT-4o
+## Live demo for automatic simulation using GPT-4o
 *(Full prompt and GPT-4o response for every case appear in the next section.)*
 
 <h3 align="center">
