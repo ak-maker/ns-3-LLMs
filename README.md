@@ -1,10 +1,19 @@
-<u><i>Still under active construction</i></u>
+
 
 ## Live demo For Scenario 2 using GPT-4o
+*(Full prompt and GPT-4o response for every case appear in the next section.)*
 
-🎥 [Watch Demo B1 & B2](https://youtu.be/gPpn4JDn7Kw)
+<h3 align="center">
+  Simulation and refinement results from the network-oriented LLMs with ns-3.
+</h3>
 
-🎥 [Watch Demo B3](https://youtu.be/QiSFq-fsGH8)
+<img src="Demo/demo-s2-1.png" alt="Architecture Diagram"/>
+
+| Case | Brief Summary | Demo Video |
+|------|---------------|------------|
+| **B1 – LLM-Driven Automation** | From a single natural-language prompt, GPT-4o writes, compiles, and runs an ns-3 script that spawns a **DynamicEmitter** (exponential mean = 1 s), schedules `ChangeRate(0.5)` at 50 s, hooks a `TimeProbe` to the `Interval` trace source, and auto-generates the inter-arrival-time plot shown in panel (a) “C1 simulation results.” | 🎥 [B1 & B2 Demo](https://youtu.be/gPpn4JDn7Kw) |
+| **B2 – Iterative Tuning**         | Building on B1’s script, the model edits just two parameters (initial mean and post-50 s mean), reruns the 100 s simulation, and returns the updated inter-arrival-time graph in panel (b) “C2 simulation results.”        | 🎥 [B1 & B2 Demo](https://youtu.be/gPpn4JDn7Kw) |
+| **B3 – Code Conversion & Trace Analysis** | Given a C++ script path, GPT-4o translates it to Python, executes it, captures the PCAP, and opens the trace in a Wireshark-style view as shown in panel (c) “C3 PCAP trace in Wireshark.” | 🎥 [B3 Demo](https://youtu.be/QiSFq-fsGH8) |
 
 ## **Complete implementation scripts for B. Scenario 2: Packet-level Simulation with ns-3**
 
