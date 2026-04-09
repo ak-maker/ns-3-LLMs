@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19477452.svg)](https://doi.org/10.5281/zenodo.19477452)
 
 ## Live demo for automatic simulation using GPT-4o
 *(Full prompt and GPT-4o response for every case appear in the next section.)*
